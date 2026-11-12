@@ -1,0 +1,27 @@
+# dependencies (each app has its own)
+node_modules/
+
+# env files (keep templates)
+.env*
+!.env.example
+
+# builds
+.next/
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+
+# logs
+*.log
+
+# editors / os
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# claude code local files
+.claude/settings.local.json
